@@ -160,8 +160,7 @@ function startAnimation() {
             trigger: ".parent",
             start: "top top",
             end: "bottom bottom",
-            scrub: 2,
-            markers: true
+            scrub: 2
         }
     });
     tl.to(frames, {
